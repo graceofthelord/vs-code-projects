@@ -4,14 +4,16 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-color: hsl(0, 0%, 95%);
+
+
 }
+
 #calculator {
     max-width: 90%; 
     width: 500px; 
     font-family: Arial, sans-serif;
-    background-color: hsl(0, 0%, 15%);
-    border-radius: 15px;
+    background: linear-gradient(180deg, hsl(0, 0%, 97%), hsl(0, 94%, 37%));
+    border-radius: 50px;
     max-width: 408px;
     overflow: hidden;
     padding-bottom: 20px;
@@ -27,7 +29,7 @@ body {
     font-size: 4rem; 
     text-align: right;
     border: none;
-    background-color: hsl(0, 0%, 25%);
+    background-color: hsl(0, 71%, 77%);
     color: white;
     overflow: hidden;
     white-space: nowrap;
@@ -46,24 +48,24 @@ button {
     height: 80px;
     border-radius: 50px;
     border: none;
-    background-color: hsl(0, 0%, 30%);
+    background-color: hsl(0, 56%, 34%);
     color: white;
     font-size: 2rem;
     font-weight: bold;
     cursor: pointer;
 }
 button:hover {
-    background-color: hsl(0, 0%, 40%);
+    background-color: hsl(0, 78%, 61%);
 }
 button:active {
-    background-color: hsl(0, 0%, 50%);
+    background-color: hsl(21, 100%, 33%);
 }
 .operator-btn {
-    background-color: hsl(35, 100%, 55%);
+    background-color: hsl(0, 92%, 20%);
 }
 .operator-btn:hover {
-    background-color: hsl(35, 100%, 65%);
+    background-color: hsl(0, 75%, 65%);
 }
 .operator-btn:active {
-    background-color: hsl(35, 100%, 75%);
+    background-color: hsl(0, 82%, 83%);
 }
